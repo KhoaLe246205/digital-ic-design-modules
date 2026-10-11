@@ -1,0 +1,57 @@
+# ==========================================
+# EDA Tools & Simulation Junk Filter
+# ==========================================
+
+# ModelSim / QuestaSim
+work/
+transcript
+*.wlf
+*.cr.mti
+*.mpf
+covhtmlreport/
+*.vmake
+
+# Waveform dumps
+*.vcd
+*.fsdb
+*.vpd
+*.dump
+
+# Synopsys & Cadence temp files
+*.log
+*.cmd
+*.jou
+*.str
+*.key
+*.diag
+command.log
+filenames.log
+
+# Xilinx Vivado / ISE
+.Xil/
+*.runs/
+*.hw/
+*.ip_user_files/
+*.cache/
+*.dcp
+*.bit
+*.bin
+
+# Microchip Libero SoC
+*.sdb
+tooldata/
+synthesis/
+simulation/
+*.log
+
+# Editor backup files
+*.bak
+*~
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
